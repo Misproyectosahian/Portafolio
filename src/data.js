@@ -6,7 +6,7 @@
 export const PROFILE = {
   firstName: "Ahian Danier",
   lastName: "Quesada",
-  role: { es: "Ingeniero en Tecnologías de Información", en: "Information Technology Engineer" },
+  role: { es: "Estudiante de Ingeniería en Tecnologías de Información", en: "Information Technology Engineering Student" },
   // rotating strengths under the name (typing effect)
   roles: {
     es: ["Full-Stack Developer", "Redes & Cisco CCNA", "Backend Engineer", "AI / LLM Builder", "Mobile Developer"],

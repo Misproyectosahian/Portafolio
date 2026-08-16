@@ -174,7 +174,8 @@ export default function App() {
               <img className="avatar" src={profileImg} alt={`${PROFILE.firstName} ${PROFILE.lastName}`} />
             </div>
             <h1 className="p-name">{PROFILE.firstName} <em>{PROFILE.lastName}</em></h1>
-            <div className="p-role-rot">{rotated || t(PROFILE.role)}<span className="caret">▊</span></div>
+            <div className="p-role-fixed">{t(PROFILE.role)}</div>
+            <div className="p-role-rot"><span className="p-role-txt">{rotated}</span><span className="caret">▊</span></div>
             <div className="socials">
               <a className="social" href={PROFILE.github} target="_blank" rel="noreferrer" aria-label="GitHub">{I.github}</a>
               <a className="social" href={PROFILE.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn">{I.linkedin}</a>
